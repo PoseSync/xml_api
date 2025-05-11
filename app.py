@@ -10,6 +10,7 @@ def voice():
         <Say voice="alice" language="ko-KR">낙상이 감지되었습니다. 즉시 확인 바랍니다.</Say>
     </Response>
     """
+    
     return Response(xml_response, mimetype='text/xml')
 
 if __name__ == "__main__":
