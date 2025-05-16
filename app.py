@@ -13,7 +13,7 @@ def voice():
     xml_response = """
     <?xml version="1.0" encoding="UTF-8"?>
     <Response>
-        <Say voice="alice" language="ko-KR">낙상이 감지되었습니다. 즉시 확인 바랍니다.</Say>
+        <Say voice="Polly.Seoyeon" language="ko-KR">낙상이 감지되었습니다. 즉시 확인 바랍니다.</Say>
     </Response>
     """
     return Response(xml_response, mimetype='text/xml')
